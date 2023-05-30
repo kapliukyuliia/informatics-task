@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Об'єктна модель документа</title>
+	</head>
+	<body>
+		<button id="button" onclick="buttonClick ()">Додати заголовок</button>
+		<script>
+			function buttonClick () {
+            const headingElement = document. createElement ('h1')
+			
+			 const text = prompt ("Введіть новий заголовок:")
+			 
+			 headingElement.innerText = text
+			 
+			 document.body.appendChild (headingElement)
+			 }
+		</script>
+	</body>
+</html>

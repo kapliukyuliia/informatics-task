@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <script>
+	let user = {};
+    user. name = "John";
+    user. surname = "Smith";
+    user.name = "Pete";
+    delete user. name;
+	
+	console.log (user)
+	
+	// Завдання 2
+	const user1 = { name: "John" }
+	const admin = user1
+	
+	admin.name = "Pete";
+	
+	console.log (user)
+	console.log (admin)
+	
+	// Завдання 3
+	
+	const user2 = {
+    name: "John",
+    age: 30
+	}
+	
+	const userCopy = Object.assign ({}, user2)
+	
+	userCopy.name = "Ann"
+	
+	console.log (user2)
+	console.log (userCopy)
+	
+	// Завдання 4
+	
+	let salaries = {
+    John: 100,   
+	Ann: 160,
+    Pete: 130
+    }
+	const sum = 100+160+130
+    
+	console.log (sum)
+	
+	</script>
+  </body>
+</html>
